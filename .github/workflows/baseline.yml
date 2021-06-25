@@ -7,7 +7,7 @@ on:
 jobs:
   Test:
     runs-on: ubuntu-20.04
-      name: Check what phase runs this
+    name: Check what phase runs this
         
       steps:
         - name Hi
