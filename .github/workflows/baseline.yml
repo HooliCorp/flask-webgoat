@@ -1,0 +1,13 @@
+name: Create Branch Baseline
+
+on:
+    create:
+
+jobs:
+    Test:
+        runs-on: ubuntu-20.04
+        steps:
+            - name: Check what phase runs this
+                run: |
+                    echo "I executed."
+
