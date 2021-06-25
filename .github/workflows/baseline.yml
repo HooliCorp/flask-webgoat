@@ -2,12 +2,15 @@ name: Create Branch Baseline
 
 on:
     create:
+    workflow_dispatch:
 
 jobs:
     Test:
         runs-on: ubuntu-20.04
+        name: Check what phase runs this
+        
         steps:
-            - name: Check what phase runs this
-                run: |
+          - name Hi!
+              run: |
                     echo "I executed."
 
