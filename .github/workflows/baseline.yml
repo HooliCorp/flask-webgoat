@@ -10,7 +10,7 @@ jobs:
     name: Check what phase runs this
         
     steps:
-      - name Hi
+      - name: Hi
         run: |
           echo "I executed."
 
