@@ -1,4 +1,3 @@
----
 ngsast:
   - app:
       name: flask-webgoat
