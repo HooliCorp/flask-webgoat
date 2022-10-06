@@ -1,0 +1,18 @@
+---
+ngsast:
+  - app:
+      name: flask-webgoat
+      modify-findings:
+        - container_reachable
+finding-modifications:
+  container_reachable:
+    filter:
+      type:
+        - container
+      severity:
+        - critical
+    tags:
+      - key: reachability
+        value: reachable
+      - key: reason
+        value: appsec_elevation
